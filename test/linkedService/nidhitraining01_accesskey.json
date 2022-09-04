@@ -1,0 +1,19 @@
+{
+	"name": "nidhitraining01_accesskey",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://nidhitraining01.dfs.core.windows.net",
+			"accountKey": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "keynd01",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "nidhitraining01accesskey"
+			}
+		}
+	}
+}

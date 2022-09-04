@@ -1,0 +1,19 @@
+{
+	"name": "Binary_target",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "nidhitraining01_managedidentity",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "Source Data",
+				"fileSystem": "logicaldw"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

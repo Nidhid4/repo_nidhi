@@ -1,0 +1,11 @@
+{
+	"name": "nidhitraining01_managedidentity",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://nidhitraining01.dfs.core.windows.net/"
+		}
+	}
+}
